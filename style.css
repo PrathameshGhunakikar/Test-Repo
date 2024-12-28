@@ -1,0 +1,28 @@
+/* Reset some default browser styles */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the body */
+body {
+    background-color: #f4f4f4; /* Light gray background */
+    font-family: Arial, sans-serif; /* Font family */
+    color: #333; /* Dark gray text color */
+    display: flex; /* Center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+/* Style for the h1 element */
+h1 {
+    font-size: 3em; /* Large font size */
+    text-align: center; /* Center text */
+    color: #2c3e50; /* Dark blue color */
+    padding: 20px; /* Padding around the text */
+    border: 2px solid #2980b9; /* Blue border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #ecf0f1; /* Light background for the heading */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+}
